@@ -52,11 +52,13 @@
 #vis .title {
   font-size:60px;
   text-anchor: middle;
+  color: #ffffff;
 }
 
 #vis .sub-title {
   font-size:40px;
   text-anchor: middle;
+  color: #ffffff;
 }
 
 .axis path,
