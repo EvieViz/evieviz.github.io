@@ -10,7 +10,7 @@ var scrollVis = function () {
   // and margins of the vis area.
   var width = 600;
   var height = 520;
-  var margin = { top: 0, left: 20, bottom: 40, right: 10 };
+  var margin = { top: 0, left: 80, bottom: 40, right: 10 };
 
   // Keep track of which visualization
   // we are on and which was the last
@@ -168,13 +168,13 @@ var scrollVis = function () {
       .attr('class', 'title openvis-title')
       .attr('x', width / 2)
       .attr('y', height / 3)
-      .text('2013');
+      .text('Chicago');
 
     g.append('text')
       .attr('class', 'sub-title openvis-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
-      .text('OpenVis Conf');
+      .text('Scooter system');
 
     g.selectAll('.openvis-title')
       .attr('opacity', 0);
