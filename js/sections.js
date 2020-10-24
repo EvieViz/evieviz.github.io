@@ -168,12 +168,14 @@ var scrollVis = function () {
       .attr('class', 'title openvis-title')
       .attr('x', width / 2)
       .attr('y', height / 3)
+      .attr('fill', 'white')
       .text('2013');
 
     g.append('text')
       .attr('class', 'sub-title openvis-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
+      .attr('fill', 'white')
       .text('OpenVis Conf');
 
     g.selectAll('.openvis-title')
@@ -190,6 +192,7 @@ var scrollVis = function () {
       .attr('class', 'sub-title count-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
+      .attr('fill', 'white')
       .text('Filler Words');
 
     g.selectAll('.count-title')
