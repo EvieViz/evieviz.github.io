@@ -69,7 +69,7 @@ var scrollVis = function () {
   // @v4 using new scale name
   var coughColorScale = d3.scaleLinear()
     .domain([0, 1.0])
-    .range(['#008080', 'red']);
+    .range(['#008080', 'orange']);
 
   // You could probably get fancy and
   // use just one axis, modifying the
@@ -168,14 +168,15 @@ var scrollVis = function () {
       .attr('class', 'title openvis-title')
       .attr('x', width / 2)
       .attr('y', height / 3)
-      .text('Chicago')
-      .attr('fill',white);
+      .text('Equity in Micro-mobility')
+      .attr('fill','red');
 
     g.append('text')
       .attr('class', 'sub-title openvis-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
-      .text('Scooter system');
+      .text('How the City of Chicago identities the equity priority areas?')
+      .attr('color','white');
 
     g.selectAll('.openvis-title')
       .attr('opacity', 0);
