@@ -1,6 +1,6 @@
 
 .container {
-  width: 1200px;
+  width: 890px;
 }
 
 #graphic {
@@ -22,7 +22,7 @@
   font-family: "TiemposTextWeb-Regular","Georgia";
   font-size: 16px;
   line-height: 23px;
-  color: #ECEBED;
+  color: #767678;
 }
 
 #sections .title {
@@ -30,7 +30,7 @@
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 2px;
-  color: #ffffff;
+  color: #fff;
   line-height: 1.2em;
 }
 
@@ -50,21 +50,19 @@
 }
 
 #vis .title {
-  font-size:45px;
+  font-size:120px;
   text-anchor: middle;
-  color: #ffffff;
 }
 
 #vis .sub-title {
-  font-size:24px;
+  font-size:80px;
   text-anchor: middle;
-  color: #ffffff;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: #ECEBED;
+  stroke: #666;
   shape-rendering: crispEdges;
 }
 
@@ -78,9 +76,5 @@
   stroke-width: 4px;
 
 }
-
-
-
-
 
 
