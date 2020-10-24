@@ -168,13 +168,13 @@ var scrollVis = function () {
       .attr('class', 'title openvis-title')
       .attr('x', width / 2)
       .attr('y', height / 3)
-      .text('Chicago Scooter');
+      .text('Chicago Scooters');
 
     g.append('text')
       .attr('class', 'sub-title openvis-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
-      .text('Scooter system');
+      .text('Scooter systems');
 
     g.selectAll('.openvis-title')
       .attr('opacity', 0);
