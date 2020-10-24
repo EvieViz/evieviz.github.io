@@ -1,6 +1,7 @@
 
 .container {
   width: 1200px;
+  background-color: black;
 }
 
 #graphic {
@@ -22,7 +23,7 @@
   font-family: "TiemposTextWeb-Regular","Georgia";
   font-size: 16px;
   line-height: 23px;
-  color: #A9A9A9;
+  color: #ECEBED;
 }
 
 #sections .title {
@@ -50,7 +51,7 @@
 }
 
 #vis .title {
-  font-size:80px;
+  font-size:60px;
   text-anchor: middle;
 }
 
@@ -62,7 +63,7 @@
 .axis path,
 .axis line {
   fill: none;
-  stroke: #A9A9A9;
+  stroke: #ECEBED;
   shape-rendering: crispEdges;
 }
 
@@ -77,8 +78,8 @@
 
 }
 
-#backgroun{
 
-  background-color: black;
-}
+
+
+
 
