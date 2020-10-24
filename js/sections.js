@@ -169,14 +169,14 @@ var scrollVis = function () {
       .attr('x', width / 2)
       .attr('y', height / 3)
       .attr('fill', 'white')
-      .text('2013');
+      .text('Equity Zone');
 
     g.append('text')
       .attr('class', 'sub-title openvis-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
       .attr('fill', 'white')
-      .text('OpenVis Conf');
+      .text('of Chicago Scooter Program');
 
     g.selectAll('.openvis-title')
       .attr('opacity', 0);
@@ -186,14 +186,14 @@ var scrollVis = function () {
       .attr('class', 'title count-title highlight')
       .attr('x', width / 2)
       .attr('y', height / 3)
-      .text('180');
+      .text('E-Scooter Pilot');
 
     g.append('text')
       .attr('class', 'sub-title count-title')
       .attr('x', width / 2)
       .attr('y', (height / 3) + (height / 5))
       .attr('fill', 'white')
-      .text('Filler Words');
+      .text('2019-2020');
 
     g.selectAll('.count-title')
       .attr('opacity', 0);
